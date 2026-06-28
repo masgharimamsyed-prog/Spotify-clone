@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-start">
+            <i class="fa-brands fa-spotify logo"></i>
+            <div class="circle-parent">
+                <i class="fa-solid fa-house"></i>
+            </div>
+
+            <div class="searchbar">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="What do you want to play?">
+                </div>
+                <p>|</p>
+                <i class="fa-solid fa-inbox"></i>
+            </div>
+        </div>
+        <div class="nav-end">
+            <button class="badge">Explore Premium</button>
+            <button class="badge" style="background-color: black; color: #b3b3b3;"><i
+                    class="fa-regular fa-circle-down"></i>Install App</button>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-users"></i>
+            <span class="myaccount">M</span>
+
+        </div>
+    </nav>
+    <div class="library">
+        <div class="library-nav">
+            <p>Your Library</p>
+            <div class="circle-parent">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+
+        </div>
+        <div class="library-card">
+            <h6>Create your first playlist</h6>
+            <p>it's easy,we'll help you</p>
+            <button class="badge">Create playlist</button>
+        </div>
+        <div class="library-card">
+            <h6>Let's find some podcast to follow</h6>
+            <p>We'll keep you updated on new episodes</p>
+            <button class="badge">Browse podcasts</button>
+        </div>
+    </div>
+    <main>
+        <div class="main-nav">
+            <div class="circle-parent">
+                <img src="./assets/backward_icon.png">
+
+            </div>
+            <div class="circle-parent">
+                <img src="./assets/forward_icon.png">
+            </div>
+            <button class="badge">All</button>
+            <button class="badge" style="background-color:#474444 ;color: white;">Music</button>
+
+
+        </div>
+        <div class="main-content">
+            <h6>Recently Played</h6>
+            <div class="recently cards-space">
+                <div class="main-card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e0200c7fb9784fa0cbc02f567a6">
+                    <h5>May be,its love</h5>
+                    <p>Hassan Raheem</p>
+                </div>
+            </div>
+            <h6>Popular</h6>
+            <div class="popular cards-space">
+                <div class="main-card">
+                    <img src="./assets/card2img.jpeg">
+                    <h5>Mahiya Jinna Sona</h5>
+                    <p>Darshan Raval </p>
+                </div>
+                <div class="main-card">
+                    <img src="./assets/card3img.jpeg">
+                    <h5>Mere pass Tum ho</h5>
+                    <p>Rahat fateh ali </p>
+                </div>
+                <div class="main-card">
+                    <img src="./assets/card4img.jpeg">
+                    <h5>Naa Ready</h5>
+                    <p>Thalapathy Vijay and Anirudh </p>
+                </div>
+                <div class="main-card">
+                    <img src="	https://i.scdn.co/image/ab67616d00001e0285c5968be0d0d9c545241124">
+                    <h5>Pal Pal</h5>
+                    <p>Ali Soomro and Sania Iqbal</p>
+                </div>
+            </div>
+            <h6>Featured</h6>
+            <div class="featured cards-space">
+                <div class="main-card">
+                    <img src="./assets/card1img.jpeg">
+                    <h5>Top 50 songs worldwide</h5>
+                </div>
+                <div class="main-card">
+                    <img src="./assets/card5img.jpeg">
+                    <h5>Top 50 songs weekly</h5>
+                </div>
+                <div class="main-card">
+                    <img src="./assets/card6img.jpeg">
+                    <h5>Top 50 songs India</h5>
+                </div>
+            </div>
+            <h6>Popular artists</h6>
+            <div class="artists cards-space">
+                <div class="main-card round-img">
+                    <img src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7">
+                    <h5>Arijit Singh</h5>
+                </div>
+                <div class="main-card round-img">
+                    <img src="	https://i.scdn.co/image/ab676161000051740d980c444c93fded5715e1b4">
+                    <h5>Yo yo Honey Singh</h5>
+                </div>
+                <div class="main-card round-img">
+                    <img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84">
+                    <h5>Atif Aslam</h5>
+                </div>
+                <div class="main-card round-img">
+                    <img src="	https://i.scdn.co/image/ab676161000051748a4c60d0eebe893f72e42979">
+                    <h5>Karan Ajula</h5>
+                </div>
+                <div class="main-card round-img">
+                    <img src="	https://i.scdn.co/image/ab676161000051749dfbd284ba8a7d4876a181e3">
+                    <h5>Subh</h5>
+                </div>
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="main-footer">
+            <div class="company footer-section">
+                <h6>Company</h6>
+                <ul>
+                    <li>About</li>
+                    <li>Jobs</li>
+                    <li>For the Record</li>
+                </ul>
+            </div>
+            <div class="communities footer-section">
+                <h6>Communities</h6>
+                <ul>
+                    <li>For Artists</li>
+                    <li>Developers</li>
+                    <li>Advertising</li>
+                    <li>Inverstors</li>
+                    <li>Vendors</li>
+                </ul>
+            </div>
+            <div class="links footer-section">
+                <h6>Useful links</h6>
+                <ul>
+                    <li>Supports</li>
+                    <li>Free Mobile App</li>
+                    <li>Popular by Country</li>
+                    <li>Import your Music</li>
+                </ul>
+            </div>
+            <div class="plans footer-section">
+                <h6>Spotify plans</h6>
+                <ul>
+                    <li>Premium Duo</li>
+                    <li>Premium Family</li>
+                    <li>Premium Student</li>
+                    <li>Spotify Free</li>
+                </ul>
+            </div>
+            <div class="socialmedialinks">
+                <!--insta-->
+                <div class="circle-parent">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <!--tweeter-->
+                <div class="circle-parent">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <!--facebook-->
+                <div class="circle-parent">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="legals">
+            <ul>
+                <li>Legal</li>
+                <li>Safety & Privacy Center</li>
+                <li>Privacy Policy</li>
+                <li>Cookies</li>
+                <li>About Ads</li>
+                <li>Acessibility</li>
+            </ul>
+            <p><i class="fa-regular fa-copyright"></i>2026 Spotify AB</p>
+        </div>
+
+    </main>
+    <div class="playbar">
+        <div class="nowplaying">
+            <img src="./assets/card3img.jpeg">
+            <div>
+            <p >Mere Pass tum ho</p>
+            <p style="color:grey;font-size: 0.5rem;">By Rahat Fateh Ali Khan</p>
+            </div>
+            <i class="fa-solid fa-circle-plus"></i>
+            
+        </div>
+        <div class="progress" >
+            <div class="progress-upper">
+                <img src="./assets/player_icon1.png">
+                <img src="./assets/player_icon2.png">
+                <img style="width:2rem;opacity: 1;" src="./assets/player_icon3.png">
+                <img src="./assets/player_icon4.png">
+                <img src="./assets/player_icon5.png">
+            </div>
+            <div class="progress-lower">
+                <p>0.00</p>
+                <input type="range">
+                <p>5.55</p>
+            </div>
+
+        </div>
+        <div class="controls">
+            <i class="fa-solid fa-microphone"></i>
+            <i class="fa-solid fa-book"></i>
+            <i class="fa-solid fa-dice-one"></i>
+            <i class="fa-solid fa-volume"></i>
+            <input type="range">
+            <i class="fa-solid fa-picture-in-picture"></i>
+            <i class="fa-solid fa-expand"></i>
+        </div>
+    </div>
+
+</body>
+
+</html>
